@@ -381,6 +381,36 @@ button.accept-btn.no-thankx { background: transparent; font-family: Inter; font-
 	.solu-text h2 { font-size: 24px; line-height: 29px }
 	.item-img { display: none }
 	.footer-inner .links { flex: 0 0 100%; max-width: 100%; }
+
+	.cookies-sec {
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		border-radius: 0;
+		padding: 15px 0;
+	}
+	
+	.cooki-icon {
+		position: absolute;
+	}
+	
+	.cooki-data {
+		padding: 0;
+		padding-top: 13px;
+		width: 100%;
+	}
+	
+	.cooki-data h3 {
+		padding-left: 66px;
+		padding-bottom: 6px;
+	}
+	
+	.cooki-icon img {
+		max-width: 50px;
+	}
+	.cookies-sec .container {
+		max-width: 100%;
+	}
 }
 @media (max-width:575px) {
 	.ser-titles { min-height: auto; padding: 20px 0 }
